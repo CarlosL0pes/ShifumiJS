@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/1269211670/fr/vectoriel/roche-papier-ciseaux-ensemble-dic%C3%B4nes-de-parties-de-corps.jpg?s=612x612&w=0&k=20&c=TBRMAM5ylNVweDEOwrdfFM0kvnH5m7oysW1Le1i1Jmw=);
+    background-repeat: no-repeat;
+}
+  
+.button-organisation{
+    display: flex;
+    justify-content: center;
+}
+
+  button {
+    background-color: #dcdcdc;
+    color: #333;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin:5px;
+    padding:20px;
+    border-radius: 25px;
+  }
+ #scissors{
+    background-image: url(https://www.fourniturestapissier.com/medias/images-articles/ciseaux-coupe-metal-1/ciseaux-coupe-metal-1-2.jpg);
+ }
+  #paper{
+    background-image: url(https://download.vikidia.org/vikidia/fr/images/2/2f/Feuille_Synthese.jpg);
+  }
+  button:hover {
+    background-color: #bfbfbf;
+    cursor: pointer;
+  }
+
+  #result {
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #result.show {
+    opacity: 1;
+  }
+  
+  #result.hide {
+    opacity: 0;
+  }
+
+  button.active {
+    background-color: #bfbfbf;
+  }
